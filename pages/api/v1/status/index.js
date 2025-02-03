@@ -20,8 +20,6 @@ async function status(request, response) {
 
   const activeFormat = actives.rows[0].count
 
-  console.log(activeFormat)
-
   response.status(200).json({
     update_at: updatedAt,
     server_version: formatedVersion,
