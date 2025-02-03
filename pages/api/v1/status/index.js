@@ -25,7 +25,7 @@ async function status(request, response) {
     server_version: formatedVersion,
     max_connections: parseInt(formatMaxConnections),
     opened_connections: activeFormat,
-    ambiente: Homologação
+    ambiente: "Homologação"
   }) 
 }
 
